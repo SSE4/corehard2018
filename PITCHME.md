@@ -183,7 +183,8 @@ pip install conan-readme-generator
        self.options.shared else 'libtheora_static.sln'
     msbuild = MSBuild(self)
     msbuild.build(sln, upgrade_project=True,
-                  platforms={'x86': 'Win32', 'x86_64': 'x64'})
+                  platforms={'x86': 'Win32',
+                             'x86_64': 'x64'})
 ```
 
 ---?color=black
