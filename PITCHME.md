@@ -24,8 +24,9 @@ pip install conan
 
 ## remotes: conan-community
 
-```sh
-conan remote add conan-community "https://api.bintray.com/conan/conan-community/conan"
+@size[12em]```sh
+conan remote add conan-community 
+"https://api.bintray.com/conan/conan-community/conan"
 ```
 
 ---
@@ -34,7 +35,8 @@ conan remote add conan-community "https://api.bintray.com/conan/conan-community/
 ## remotes: bincrafters
 
 ```sh
-conan remote add bincrafters "https://api.bintray.com/conan/bincrafters/public-conan"
+conan remote add bincrafters 
+"https://api.bintray.com/conan/bincrafters/public-conan"
 ```
 
 ---
