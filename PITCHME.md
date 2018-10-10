@@ -9,26 +9,93 @@ pip install conan
 ```
 
 ---
+@title[remotes-conan-center]
+### remotes: conan-center
+
+* currently ~120 packages available
+* goal is to double amount by the end of year (2018)
+
+---
+@title[remotes-conan-community]
+
+### remotes: conan-community
+
+```sh
+conan remote add conan-community "https://api.bintray.com/conan/conan-community/conan"
+```
+
+---
+@title[remotes-bincrafters]
+
+### remotes: bincrafters
+
+```sh
+conan remote add bincrafters """https://api.bintray.com/conan/bincrafters/public-conan"
+```
+
+---
+@title[new packages]
+
+### new packages
+
+* Qt
+* OpenCV
+* ffmpeg
+* SDL2
+* wxWidgets
+* wt
+* protobuf
+
+---
+@title[wishlist]
+
+### wishlist
+
+## please vote!
+
+https://croydon.github.io/conan_inquiry/#!wishlist
+
+---
 @title[plug-ins]
+
+### plug-ins
+
+* binary linters
+* signing
+* license check
+* update bintray metadata
+* update GitHub metadata
 
 ---
 @title[SCM]
 
+### SCM
+
+* Git
+* SVN
+
 ---
 @title[workspaces]
+
+### workspaces
 
 ---
 @title[profiles]
 
+### profiles
+
 ---
 @title[build_requires]
-1. ninja_installer
-1. nasm_installer
-1. yasm_installer
-1. cygwin_installer
-1. msys2_installer
-1. mingw_installer
-1. premake_installer
+
+### build requires
+
+* ninja_installer
+* nasm_installer
+* yasm_installer
+* cygwin_installer
+* msys2_installer
+* mingw_installer
+* premake_installer
 
 
 ---?color=linear-gradient(to right, #c02425, #f0cb35)
