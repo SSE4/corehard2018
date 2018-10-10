@@ -3,7 +3,7 @@
 
 ## packaging open-source libraries with conan.io
 
-----?color=black
+---?color=black
 @title[install conan]
 
 ## install conan
@@ -12,14 +12,14 @@
 pip install conan
 ```
 
-----?color=black
+---?color=black
 @title[remotes-conan-center]
 ## remotes: conan-center
 
 * currently ~120 packages available
 * goal is to double amount by the end of year (2018)
 
-----?color=black
+---?color=black
 @title[remotes-conan-community]
 
 ## remotes: conan-community
@@ -29,7 +29,7 @@ conan remote add conan-community
 "https://api.bintray.com/conan/conan-community/conan"
 ```
 
-----?color=black
+---?color=black
 @title[remotes-bincrafters]
 
 ## remotes: bincrafters
@@ -39,7 +39,7 @@ conan remote add bincrafters
 "https://api.bintray.com/conan/bincrafters/public-conan"
 ```
 
-----?color=black
+---?color=black
 @title[new packages]
 
 ## new packages
@@ -52,16 +52,16 @@ conan remote add bincrafters
 * wt
 * protobuf
 
-----?color=black
+---?color=black
 @title[wishlist]
 
 ## wishlist
 
 ### please vote!
 
-https://croydon.github.io/conan_inquiry/#!wishlist
+[https://croydon.github.io/conan_inquiry/#!wishlist](https://croydon.github.io/conan_inquiry/#!wishlist)
 
-----?color=black
+---?color=black
 @title[plug-ins]
 
 ## plug-ins
@@ -72,7 +72,7 @@ https://croydon.github.io/conan_inquiry/#!wishlist
 * update bintray metadata
 * update GitHub metadata
 
-----?color=black
+---?color=black
 @title[SCM]
 
 ## SCM
@@ -80,17 +80,17 @@ https://croydon.github.io/conan_inquiry/#!wishlist
 * Git
 * SVN
 
-----?color=black
+---?color=black
 @title[workspaces]
 
 ### workspaces
 
-----?color=black
+---?color=black
 @title[profiles]
 
 ## profiles
 
-----?color=black
+---?color=black
 @title[build_requires]
 
 ## build requires
@@ -103,6 +103,43 @@ https://croydon.github.io/conan_inquiry/#!wishlist
 * mingw_installer
 * premake_installer
 
+---?color=black
+@title[conan templates]
+
+### conan templates
+
+* conanfile + test package
+
+* appveyor & travis manifests
+
+[https://github.com/bincrafters/conan-templates](https://github.com/bincrafters/conan-templates)
+
+---?color=black
+@title[conan package tools]
+
+### conan package tools
+
+```sh
+pip install conan-package-tools
+```
+
+[https://github.com/conan-io/conan-package-tools](https://github.com/conan-io/conan-package-tools)
+
+---?color=black
+@title[conan docker tools]
+
+### conan docker tools
+
+[https://github.com/conan-io/conan-docker-tools](https://github.com/conan-io/conan-docker-tools)
+
+---?color=black
+@title[conan readme generator]
+
+### conan readme generator
+
+```sh
+pip install conan-readme-generator
+```
 
 ---?color=linear-gradient(to right, #c02425, #f0cb35)
 @title[Introduction]
