@@ -1,4 +1,4 @@
----?color=black
+---?color=gainsboro
 @title[conan]
 
 ## packaging open-source libraries with conan.io
