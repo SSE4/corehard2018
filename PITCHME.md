@@ -195,9 +195,11 @@ pip install conan-readme-generator
 
     configure_args = []
     if self.options.shared:
-        configure_args.extend(['--disable-static', '--enable-shared'])
+        configure_args.extend(['--disable-static',
+                               '--enable-shared'])
     else:
-        configure_args.extend(['--disable-shared', '--enable-static'])
+        configure_args.extend(['--disable-shared',
+                               '--enable-static'])
     env_build = AutoToolsBuildEnvironment(self)
     env_build.configure(args=configure_args)
     env_build.make()
