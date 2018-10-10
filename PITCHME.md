@@ -82,6 +82,7 @@ conan remote add bincrafters
 
 ## plug-ins
 
+* conan center checker
 * binary linters
 * signing
 * license check
