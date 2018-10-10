@@ -3,7 +3,7 @@
 
 ## packaging open-source libraries with conan.io
 
----?color=black
+---?color=gainsboro
 @title[install conan]
 
 ## install conan
@@ -12,7 +12,7 @@
 $ pip install conan
 ```
 
----?color=black
+---?color=gainsboro
 @title[getting help]
 ### getting help
 
@@ -25,14 +25,14 @@ $ pip install conan
 * #conan
 * #bincrafters
 
----?color=black
+---?color=gainsboro
 @title[remotes-conan-center]
 ## remotes: conan-center
 
 * currently ~120 packages available
 * goal is to double amount by the end of year (2018)
 
----?color=black
+---?color=gainsboro
 @title[remotes-conan-community]
 
 ## remotes: conan-community
@@ -42,7 +42,7 @@ $ conan remote add conan-community
 "https://api.bintray.com/conan/conan-community/conan"
 ```
 
----?color=black
+---?color=gainsboro
 @title[remotes-bincrafters]
 
 ## remotes: bincrafters
@@ -52,19 +52,19 @@ $ conan remote add bincrafters
 "https://api.bintray.com/conan/bincrafters/public-conan"
 ```
 
----?color=black
+---?color=gainsboro
 @title[artifactory]
 
 ## Artifactory Community Edition
 
 [https://jfrog.com/open-source/](https://jfrog.com/open-source/)
 
----?color=black
+---?color=gainsboro
 @title[nexus]
 
 ## Sonatype Nexus added conan support
 
----?color=black
+---?color=gainsboro
 @title[new packages]
 
 ## new packages
@@ -77,7 +77,7 @@ $ conan remote add bincrafters
 * wt
 * protobuf
 
----?color=black
+---?color=gainsboro
 @title[wishlist]
 
 ## wishlist
@@ -86,7 +86,7 @@ $ conan remote add bincrafters
 
 [https://croydon.github.io/conan_inquiry/#!wishlist](https://croydon.github.io/conan_inquiry/#!wishlist)
 
----?color=black
+---?color=gainsboro
 @title[plug-ins]
 
 ## plug-ins
@@ -98,7 +98,7 @@ $ conan remote add bincrafters
 * update bintray metadata
 * update GitHub metadata
 
----?color=black
+---?color=gainsboro
 @title[SCM]
 
 ## SCM
@@ -106,17 +106,17 @@ $ conan remote add bincrafters
 * Git
 * SVN
 
----?color=black
+---?color=gainsboro
 @title[workspaces]
 
 ## workspaces
 
----?color=black
+---?color=gainsboro
 @title[profiles]
 
 ## profiles
 
----?color=black
+---?color=gainsboro
 @title[build_requires]
 
 ## build requires
@@ -128,8 +128,9 @@ $ conan remote add bincrafters
 * msys2_installer
 * mingw_installer
 * premake_installer
+* cmake_installer
 
----?color=black
+---?color=gainsboro
 @title[conan templates]
 
 ## conan templates
@@ -142,7 +143,7 @@ $ conan remote add bincrafters
 
 [https://github.com/bincrafters/conan-templates](https://github.com/bincrafters/conan-templates)
 
----?color=black
+---?color=gainsboro
 @title[conan package tools]
 
 ## conan package tools
@@ -150,13 +151,13 @@ $ conan remote add bincrafters
 ```sh
 $ pip install conan-package-tools
 ```
-$ ```sh
-pip install bincrafters-package-tools
+ ```sh
+$pip install bincrafters-package-tools
 ```
 
 [https://github.com/conan-io/conan-package-tools](https://github.com/conan-io/conan-package-tools)
 
----?color=black
+---?color=gainsboro
 @title[conan docker tools]
 
 ## conan docker tools
@@ -165,7 +166,7 @@ pip install bincrafters-package-tools
 
 [https://github.com/dockcross/dockcross](https://github.com/dockcross/dockcross)
 
----?color=black
+---?color=gainsboro
 @title[conan readme generator]
 
 ## conan readme generator
@@ -174,7 +175,7 @@ pip install bincrafters-package-tools
 $ pip install conan-readme-generator
 ```
 
----?color=black
+---?color=gainsboro
 @title[envy]
 
 ## envy
@@ -183,7 +184,7 @@ $ pip install conan-readme-generator
 $ pip install bincrafters-envy
 ```
 
----?color=black
+---?color=gainsboro
 @title[build helpers]
 
 ## build helpers
@@ -192,7 +193,7 @@ $ pip install bincrafters-envy
 * AutoToolsBuildEnvironment
 * MSBuild
 
----?color=black
+---?color=gainsboro
 @title[CMake]
 
 ## CMake build helper
@@ -215,7 +216,7 @@ $ pip install bincrafters-envy
         cmake.install()
 ```
 
----?color=black
+---?color=gainsboro
 @title[MSBuild]
 
 ## MSBuild build helper
@@ -229,7 +230,7 @@ $ pip install bincrafters-envy
                              'x86_64': 'x64'})
 ```
 
----?color=black
+---?color=gainsboro
 @title[AutoToolsBuildEnvironment]
 
 ## AutoToolsBuildEnvironment build helper
