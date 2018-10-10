@@ -13,6 +13,15 @@ pip install conan
 ```
 
 ---?color=black
+@title[getting help]
+### getting help
+
+[https://cpplang-inviter.cppalliance.org/](https://cpplang-inviter.cppalliance.org/)
+
+* #conan
+* #bincrafters
+
+---?color=black
 @title[remotes-conan-center]
 ## remotes: conan-center
 
@@ -131,6 +140,8 @@ pip install conan-package-tools
 ### conan docker tools
 
 [https://github.com/conan-io/conan-docker-tools](https://github.com/conan-io/conan-docker-tools)
+
+[https://github.com/dockcross/dockcross](https://github.com/dockcross/dockcross)
 
 ---?color=black
 @title[conan readme generator]
