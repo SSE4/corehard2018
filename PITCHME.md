@@ -1,3 +1,28 @@
+---
+@title
+conan
+---
+@title[install conan]
+```sh
+pip install conan
+```
+
+---
+@title[plug-ins]
+
+---
+@title[SCM]
+
+---
+@title[workspaces]
+
+---
+@title[profiles]
+
+---
+@title[build_requires]
+
+
 ---?color=linear-gradient(to right, #c02425, #f0cb35)
 @title[Introduction]
 
