@@ -141,68 +141,33 @@ pip install conan-package-tools
 pip install conan-readme-generator
 ```
 
----?color=linear-gradient(to right, #c02425, #f0cb35)
-@title[Introduction]
+---?color=black
+@title[build helpers]
 
-@snap[west headline text-white span-70]
-GitPitch<br>*The Template*
-@snapend
+### build helpers
 
-@snap[south-west byline  text-white]
-The Fastest Way From Idea To Presentation.
-@snapend
+* CMake
+* AutoToolsBuildEnvironment
+* MSBuild
 
----
-@title[Slide Markdown]
+---?color=black
+@title[CMake]
 
-## Each slide in this presentation is provided as a *template*.
+### CMake build helper
 
-<br><br>
+```python
 
-1. Select only the slide templates that you need.
-1. Customize the template _markdown content_.
-1. Optionally, override template _styles_ and _settings_.
-1. Then present and publish with GitPitch @fa[smile-o]
-<br><br>
+    def configure_cmake(self):
+        cmake = CMake(self)
+        cmake.definition['ENABLE_LIBASTRAL'] = self.options.libastral
+        cmake.configure(build_dir=self.build_subfolder)
+        return cmake
 
+    def build_cmake(self):
+        cmake = self.configure_cmake()
+        cmake.build()
 
----
-@title[Tip! Fullscreen]
-
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
-
----?include=template/md/split-screen/PITCHME.md
-
----?include=template/md/sidebar/PITCHME.md
-
----?include=template/md/list-content/PITCHME.md
-
----?include=template/md/image/PITCHME.md
-
----?include=template/md/sidebox/PITCHME.md
-
----?include=template/md/code-presenting/PITCHME.md
-
----?include=template/md/header-footer/PITCHME.md
-
----?include=template/md/quotation/PITCHME.md
-
----?include=template/md/announcement/PITCHME.md
-
----?include=template/md/about/PITCHME.md
-
----?include=template/md/wrap-up/PITCHME.md
-
----
-@title[The Template Docs]
-
-@snap[west headline span-100]
-GitPitch<br>*The Template @css[text-orange](End) ;)*
-@snapend
-
-@snap[south docslink span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
-@snapend
+    def package(self):
+        cmake = self.configure_cmake()
+        cmake.install()
+```
