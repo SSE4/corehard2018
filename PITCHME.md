@@ -1,8 +1,12 @@
 ---
 @title[conan]
 
+## packaging open-source libraries with conan.io
+
 ---
 @title[install conan]
+
+## install conan
 
 ```sh
 pip install conan
@@ -10,7 +14,7 @@ pip install conan
 
 ---
 @title[remotes-conan-center]
-### remotes: conan-center
+## remotes: conan-center
 
 * currently ~120 packages available
 * goal is to double amount by the end of year (2018)
@@ -18,7 +22,7 @@ pip install conan
 ---
 @title[remotes-conan-community]
 
-### remotes: conan-community
+## remotes: conan-community
 
 ```sh
 conan remote add conan-community "https://api.bintray.com/conan/conan-community/conan"
@@ -27,16 +31,16 @@ conan remote add conan-community "https://api.bintray.com/conan/conan-community/
 ---
 @title[remotes-bincrafters]
 
-### remotes: bincrafters
+## remotes: bincrafters
 
 ```sh
-conan remote add bincrafters """https://api.bintray.com/conan/bincrafters/public-conan"
+conan remote add bincrafters "https://api.bintray.com/conan/bincrafters/public-conan"
 ```
 
 ---
 @title[new packages]
 
-### new packages
+## new packages
 
 * Qt
 * OpenCV
@@ -49,16 +53,16 @@ conan remote add bincrafters """https://api.bintray.com/conan/bincrafters/public
 ---
 @title[wishlist]
 
-### wishlist
+## wishlist
 
-## please vote!
+### please vote!
 
 https://croydon.github.io/conan_inquiry/#!wishlist
 
 ---
 @title[plug-ins]
 
-### plug-ins
+## plug-ins
 
 * binary linters
 * signing
@@ -69,7 +73,7 @@ https://croydon.github.io/conan_inquiry/#!wishlist
 ---
 @title[SCM]
 
-### SCM
+## SCM
 
 * Git
 * SVN
@@ -82,12 +86,12 @@ https://croydon.github.io/conan_inquiry/#!wishlist
 ---
 @title[profiles]
 
-### profiles
+## profiles
 
 ---
 @title[build_requires]
 
-### build requires
+## build requires
 
 * ninja_installer
 * nasm_installer
@@ -112,7 +116,7 @@ The Fastest Way From Idea To Presentation.
 ---
 @title[Slide Markdown]
 
-### Each slide in this presentation is provided as a *template*.
+## Each slide in this presentation is provided as a *template*.
 
 <br><br>
 
