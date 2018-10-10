@@ -157,6 +157,10 @@ $ conan remote add bincrafters
 
 [https://github.com/bincrafters/conan-templates](https://github.com/bincrafters/conan-templates)
 
+@div[right-50]
+![artifactory](assets/img/qr_templates.png)
+@divend
+
 ---?color=gainsboro
 @title[conan package tools]
 
