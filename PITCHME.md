@@ -159,7 +159,8 @@ pip install conan-readme-generator
 
     def configure_cmake(self):
         cmake = CMake(self)
-        cmake.definition['ENABLE_LIBASTRAL'] = self.options.libastral
+        cmake.definition['ENABLE_LIBASTRAL'] = \
+            self.options.libastral
         cmake.configure(build_dir=self.build_subfolder)
         return cmake
 
@@ -170,4 +171,35 @@ pip install conan-readme-generator
     def package(self):
         cmake = self.configure_cmake()
         cmake.install()
+```
+
+---?color=black
+@title[MSBuild]
+
+### MSBuild build helper
+
+```python
+    sln = 'libtheora_dynamic.sln' if \
+       self.options.shared else 'libtheora_static.sln'
+    msbuild = MSBuild(self)
+    msbuild.build(sln, upgrade_project=True,
+                  platforms={'x86': 'Win32', 'x86_64': 'x64'})
+```
+
+---?color=black
+@title[AutoToolsBuildEnvironment]
+
+### AutoToolsBuildEnvironment build helper
+
+```python
+
+    configure_args = []
+    if self.options.shared:
+        configure_args.extend(['--disable-static', '--enable-shared'])
+    else:
+        configure_args.extend(['--disable-shared', '--enable-static'])
+    env_build = AutoToolsBuildEnvironment(self)
+    env_build.configure(args=configure_args)
+    env_build.make()
+    env_build.install()
 ```
