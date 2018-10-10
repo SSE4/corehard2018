@@ -101,6 +101,11 @@ $ conan remote add bincrafters
 [https://croydon.github.io/conan_inquiry/#!wishlist](https://croydon.github.io/conan_inquiry/#!wishlist)
 
 ---?color=gainsboro
+@title[python_requires]
+
+## python_requires
+
+---?color=gainsboro
 @title[plug-ins]
 
 ## plug-ins
