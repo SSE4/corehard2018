@@ -1,8 +1,9 @@
 ---
-@title
-conan
+@title[conan]
+
 ---
 @title[install conan]
+
 ```sh
 pip install conan
 ```
@@ -21,6 +22,13 @@ pip install conan
 
 ---
 @title[build_requires]
+1. ninja_installer
+1. nasm_installer
+1. yasm_installer
+1. cygwin_installer
+1. msys2_installer
+1. mingw_installer
+1. premake_installer
 
 
 ---?color=linear-gradient(to right, #c02425, #f0cb35)
