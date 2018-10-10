@@ -9,7 +9,7 @@
 ## install conan
 
 ```sh
-pip install conan
+$ pip install conan
 ```
 
 ---?color=black
@@ -34,7 +34,7 @@ pip install conan
 ## remotes: conan-community
 
 ```sh
-conan remote add conan-community 
+$ conan remote add conan-community 
 "https://api.bintray.com/conan/conan-community/conan"
 ```
 
@@ -44,7 +44,7 @@ conan remote add conan-community
 ## remotes: bincrafters
 
 ```sh
-conan remote add bincrafters 
+$ conan remote add bincrafters 
 "https://api.bintray.com/conan/bincrafters/public-conan"
 ```
 
@@ -144,9 +144,9 @@ conan remote add bincrafters
 ## conan package tools
 
 ```sh
-pip install conan-package-tools
+$ pip install conan-package-tools
 ```
-```sh
+$ ```sh
 pip install bincrafters-package-tools
 ```
 
@@ -167,7 +167,7 @@ pip install bincrafters-package-tools
 ## conan readme generator
 
 ```sh
-pip install conan-readme-generator
+$ pip install conan-readme-generator
 ```
 
 ---?color=black
@@ -176,7 +176,7 @@ pip install conan-readme-generator
 ## envy
 
 ```sh
-pip install bincrafters-envy
+$ pip install bincrafters-envy
 ```
 
 ---?color=black
