@@ -189,6 +189,10 @@ $ pip install bincrafters-package-tools
 
 ## conan readme generator
 
+* generates README
+* adds badges for bintray/appveyor/travis
+* adds list of options
+
 ```sh
 $ pip install conan-readme-generator
 ```
@@ -197,6 +201,8 @@ $ pip install conan-readme-generator
 @title[envy]
 
 ## envy
+
+* updates travis & appveyor environment variables
 
 ```sh
 $ pip install bincrafters-envy
