@@ -24,7 +24,7 @@ pip install conan
 
 ## remotes: conan-community
 
-@size[12em]```sh
+```sh
 conan remote add conan-community 
 "https://api.bintray.com/conan/conan-community/conan"
 ```
