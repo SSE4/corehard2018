@@ -18,6 +18,10 @@ $ pip install conan
 
 [https://cpplang-inviter.cppalliance.org/](https://cpplang-inviter.cppalliance.org/)
 
+@div[right-50]
+![invite](assets/img/qr_invite.png)
+@divend
+
 * #conan
 * #bincrafters
 
