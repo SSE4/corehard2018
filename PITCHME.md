@@ -29,6 +29,7 @@ $ pip install conan
 @title[remotes-conan-center]
 ## remotes: conan-center
 
+* official carefully-moderated repository (default one)
 * currently ~120 packages available
 * goal is to double amount by the end of year (2018)
 
@@ -36,6 +37,10 @@ $ pip install conan
 @title[remotes-conan-community]
 
 ## remotes: conan-community
+
+* supported by conan developers
+* incubator for later conan-center inclusion
+* +30 various packages
 
 ```sh
 $ conan remote add conan-community 
@@ -46,6 +51,10 @@ $ conan remote add conan-community
 @title[remotes-bincrafters]
 
 ## remotes: bincrafters
+
+* supported by community
+* incubator for later conan-center inclusion
+* +200 various packages
 
 ```sh
 $ conan remote add bincrafters 
@@ -83,6 +92,7 @@ $ conan remote add bincrafters
 ## wishlist
 
 ### please vote!
+### please add packages you want!
 
 [https://croydon.github.io/conan_inquiry/#!wishlist](https://croydon.github.io/conan_inquiry/#!wishlist)
 
