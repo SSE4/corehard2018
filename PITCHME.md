@@ -56,6 +56,11 @@ conan remote add bincrafters
 [https://jfrog.com/open-source/](https://jfrog.com/open-source/)
 
 ---?color=black
+@title[nexus]
+
+## Sonatype Nexus added conan support
+
+---?color=black
 @title[new packages]
 
 ## new packages
