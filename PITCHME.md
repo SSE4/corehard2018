@@ -49,6 +49,13 @@ conan remote add bincrafters
 ```
 
 ---?color=black
+@title[artifactory]
+
+## Artifactory Community Edition
+
+[https://jfrog.com/open-source/](https://jfrog.com/open-source/)
+
+---?color=black
 @title[new packages]
 
 ## new packages
@@ -92,7 +99,7 @@ conan remote add bincrafters
 ---?color=black
 @title[workspaces]
 
-### workspaces
+## workspaces
 
 ---?color=black
 @title[profiles]
@@ -115,7 +122,7 @@ conan remote add bincrafters
 ---?color=black
 @title[conan templates]
 
-### conan templates
+## conan templates
 
 * conanfile + test package
 
@@ -126,10 +133,13 @@ conan remote add bincrafters
 ---?color=black
 @title[conan package tools]
 
-### conan package tools
+## conan package tools
 
 ```sh
 pip install conan-package-tools
+```
+```sh
+pip install bincrafters-package-tools
 ```
 
 [https://github.com/conan-io/conan-package-tools](https://github.com/conan-io/conan-package-tools)
@@ -137,7 +147,7 @@ pip install conan-package-tools
 ---?color=black
 @title[conan docker tools]
 
-### conan docker tools
+## conan docker tools
 
 [https://github.com/conan-io/conan-docker-tools](https://github.com/conan-io/conan-docker-tools)
 
@@ -146,16 +156,25 @@ pip install conan-package-tools
 ---?color=black
 @title[conan readme generator]
 
-### conan readme generator
+## conan readme generator
 
 ```sh
 pip install conan-readme-generator
 ```
 
 ---?color=black
+@title[envy]
+
+## envy
+
+```sh
+pip install bincrafters-envy
+```
+
+---?color=black
 @title[build helpers]
 
-### build helpers
+## build helpers
 
 * CMake
 * AutoToolsBuildEnvironment
@@ -164,7 +183,7 @@ pip install conan-readme-generator
 ---?color=black
 @title[CMake]
 
-### CMake build helper
+## CMake build helper
 
 ```python
 
@@ -187,7 +206,7 @@ pip install conan-readme-generator
 ---?color=black
 @title[MSBuild]
 
-### MSBuild build helper
+## MSBuild build helper
 
 ```python
     sln = 'libtheora_dynamic.sln' if \
@@ -201,7 +220,7 @@ pip install conan-readme-generator
 ---?color=black
 @title[AutoToolsBuildEnvironment]
 
-### AutoToolsBuildEnvironment build helper
+## AutoToolsBuildEnvironment build helper
 
 ```python
 
