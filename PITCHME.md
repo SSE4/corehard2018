@@ -125,8 +125,10 @@ conan remote add bincrafters
 ## conan templates
 
 * conanfile + test package
-
 * appveyor & travis manifests
+* regular template
+* header-only
+* installer (build tool)
 
 [https://github.com/bincrafters/conan-templates](https://github.com/bincrafters/conan-templates)
 
