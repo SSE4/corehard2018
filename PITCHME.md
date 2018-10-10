@@ -152,7 +152,7 @@ $ conan remote add bincrafters
 $ pip install conan-package-tools
 ```
  ```sh
-$pip install bincrafters-package-tools
+$ pip install bincrafters-package-tools
 ```
 
 [https://github.com/conan-io/conan-package-tools](https://github.com/conan-io/conan-package-tools)
