@@ -131,6 +131,11 @@ $ conan remote add bincrafters
 ## workspaces
 
 ---?color=gainsboro
+@title[non-intrusive]
+
+## non-intrusive CMake integration
+
+---?color=gainsboro
 @title[profiles]
 
 ## profiles
