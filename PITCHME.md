@@ -68,6 +68,10 @@ $ conan remote add bincrafters
 
 [https://jfrog.com/open-source/](https://jfrog.com/open-source/)
 
+@div[right-50]
+![invite](assets/img/qr_artifactory.png)
+@divend
+
 ---?color=gainsboro
 @title[nexus]
 
