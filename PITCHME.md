@@ -6,7 +6,7 @@
 ---?color=gainsboro
 @title[install conan]
 
-## install conan
+## INSTALL CONAN
 
 ```sh
 $ pip install conan
@@ -14,7 +14,7 @@ $ pip install conan
 
 ---?color=gainsboro
 @title[getting help]
-### getting help
+### GETTING HELP
 
 [https://cpplang-inviter.cppalliance.org/](https://cpplang-inviter.cppalliance.org/)
 
@@ -27,7 +27,7 @@ $ pip install conan
 
 ---?color=gainsboro
 @title[remotes-conan-center]
-## remotes: conan-center
+## REMOTES: CONAN-CENTER
 
 * official carefully-moderated repository (default one)
 * currently ~120 packages available
@@ -36,7 +36,7 @@ $ pip install conan
 ---?color=gainsboro
 @title[remotes-conan-community]
 
-## remotes: conan-community
+## REMOTES: CONAN-COMMUNITY
 
 * supported by conan developers
 * incubator for later conan-center inclusion
@@ -50,7 +50,7 @@ $ conan remote add conan-community
 ---?color=gainsboro
 @title[remotes-bincrafters]
 
-## remotes: bincrafters
+## REMOTES: BINCRAFTERS
 
 * supported by community
 * incubator for later conan-center inclusion
@@ -80,7 +80,7 @@ $ conan remote add bincrafters
 ---?color=gainsboro
 @title[new packages]
 
-## new packages
+## NEW PACKAGES
 
 * Qt
 * OpenCV
@@ -94,7 +94,7 @@ $ conan remote add bincrafters
 ---?color=gainsboro
 @title[wishlist]
 
-## wishlist
+## WISHLIST
 
 ### please vote!
 ### please add packages you want!
@@ -104,12 +104,12 @@ $ conan remote add bincrafters
 ---?color=gainsboro
 @title[python_requires]
 
-## python_requires
+## PYTHON_REQUIRES
 
 ---?color=gainsboro
 @title[plug-ins]
 
-## plug-ins
+## PLUG-INS
 
 * conan center checker
 * binary linters
@@ -129,7 +129,7 @@ $ conan remote add bincrafters
 ---?color=gainsboro
 @title[workspaces]
 
-## workspaces
+## WORKSPACES
 
 ---?color=gainsboro
 @title[non-intrusive]
@@ -139,12 +139,12 @@ $ conan remote add bincrafters
 ---?color=gainsboro
 @title[profiles]
 
-## profiles
+## PROFILES
 
 ---?color=gainsboro
 @title[build_requires]
 
-## build requires
+## BUILD_REQUIRES
 
 * ninja_installer
 * nasm_installer
@@ -175,7 +175,7 @@ $ conan remote add bincrafters
 ---?color=gainsboro
 @title[conan package tools]
 
-## conan package tools
+## CONAN PACKAGE TOOLS
 
 ```sh
 $ pip install conan-package-tools
@@ -189,7 +189,7 @@ $ pip install bincrafters-package-tools
 ---?color=gainsboro
 @title[conan docker tools]
 
-## conan docker tools
+## CONAN DOCKER TOOLS
 
 [https://github.com/conan-io/conan-docker-tools](https://github.com/conan-io/conan-docker-tools)
 
@@ -198,7 +198,7 @@ $ pip install bincrafters-package-tools
 ---?color=gainsboro
 @title[conan readme generator]
 
-## conan readme generator
+## CONAN README GENERATOR
 
 * generates README
 * adds badges for bintray/appveyor/travis
@@ -211,7 +211,7 @@ $ pip install conan-readme-generator
 ---?color=gainsboro
 @title[envy]
 
-## envy
+## ENVY
 
 * updates travis & appveyor environment variables
 
@@ -222,7 +222,7 @@ $ pip install bincrafters-envy
 ---?color=gainsboro
 @title[build helpers]
 
-## build helpers
+## BUILD HELPERS
 
 * CMake
 * AutoToolsBuildEnvironment
