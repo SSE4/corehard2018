@@ -88,6 +88,7 @@ $ conan remote add bincrafters
 * SDL2
 * wxWidgets
 * wt
+* ImageMagick
 * protobuf
 
 ---?color=gainsboro
