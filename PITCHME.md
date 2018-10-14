@@ -29,7 +29,8 @@ $ pip install conan
 @title[remotes-conan-center]
 ## REMOTES: CONAN-CENTER
 
-* official carefully-moderated repository (default one)
+* default remote
+* official carefully-moderated repository
 * currently ~120 packages available
 * goal is to double amount by the end of year (2018)
 
@@ -41,6 +42,7 @@ $ pip install conan
 * supported by conan developers
 * incubator for later conan-center inclusion
 * +30 various packages
+* foundational packages: zlib, bzip2, OpenSSL, etc.
 
 ```sh
 $ conan remote add conan-community 
